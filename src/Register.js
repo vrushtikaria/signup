@@ -8,7 +8,7 @@ const name_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
 const password_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 const EMAIL_REGEX=/^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/;
 const PHN_REGEX=/^(\+\d{1,3}[- ]?)?\d{10}$/;
-const API_URL = "https://api.shilpimultiplex.com/api/Auth/";
+
 
 const Register = () => {
     const nameRef = useRef();
